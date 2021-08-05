@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//styles.css">
+    <link rel="shortcut icon" href="/favlisticon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/da8e3f3c0a.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <!--Main Tittle-->
+        <h1 class="todo_tittle"><span class="todo_container">TODO</span>LIST</h1>
+
+        <!--Input Task-->
+        <div class="add_task">
+            <input type="text" class="task_input" placeholder="Agrege tarea" maxlength="25" required>
+            <button class="task_button"><i class="fas fa-plus"></i></button>
+        </div>
+
+        <!--Not Completed Task Container-->
+        <div class="notCompleted">
+            <h3 class="task_tittle">Por Hacer</h3>
+        </div>
+
+        <!--Completed Task Container-->
+        <div class="Completed">
+            <h3 class="task_tittle">Completado</h3>
+        </div>
+
+        </section>
+
+    <!--Scripts-->
+    <script src=".//todo.js"></script>
+
+</body>
+
+</html>
