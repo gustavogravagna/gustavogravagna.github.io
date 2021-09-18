@@ -1,0 +1,175 @@
+/* ESTILOS GENERALES DE LA PAGINA */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background-image: url(../img/white-waves.png);
+}
+
+
+/* ESTILOS DEL HEADER PRINCIPAL */
+
+header .etiqueta {
+    width: 100%;
+    max-width: 1700px;
+    height: 35px;
+    background: #002;
+    color: #ccc;
+    font-size: 17px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header .etiqueta .etiqueta-info {
+    padding: 7px 30px;
+}
+
+/* NOMBRE DEL AUTOR /////////////////////////////////////////*/
+
+header .contenedor .autor {
+    margin-top: 45px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header .contenedor .autor h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    color: #000;
+}
+
+/* ITEMS MENU ///////////////////////////////////////////////////////////*/
+
+header .contenedor .menu {
+    padding-top: 10px;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    height: auto;
+    box-shadow: 2px 2px 3px #333;
+    display: flex;
+    justify-content: center;
+}
+
+header .contenedor .menu a {
+    margin: 0px 0px;
+    padding: 0px 40px;
+    width: 30%;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+header .contenedor .menu a:hover{
+    color: #1abc9c;
+    border-bottom: 1px solid rgba(0,0,0, .1);
+    /* padding-bottom: 10px; */
+}
+
+
+/*Media query*/
+
+@media screen and (max-width: 1000px){
+    header .contenedor .menu a {
+        text-align: center;
+        margin: auto;
+        display: inline-block;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 666px){
+    header .contenedor .menu a {
+        text-align: center;
+        display: inline-block;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        margin: auto;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 666px){
+    header .contenedor .menu a {
+        text-align: center;
+        display: inline-block;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        padding: 10px 0px;
+
+    }
+}
+
+@media screen and (max-width: 454px){
+    header .contenedor .menu a {
+        text-align: center;
+        display: inline-block;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        margin: auto;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+/* CAROUSEL IMAGENES */
+
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sabor { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+
+.menu .menu-hijo .item-2 {
+    color: #1abc9c;
+}
+
+.menu .menu-hijo .item-2:hover {
+    cursor:default;
+}
