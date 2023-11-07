@@ -1,0 +1,32 @@
+$font-family: 'Work Sans', sans-serif;
+$color-primary: #ffbc13;
+$color-secondary:#001e4c;
+$color-pink: #da4a54;
+$color-white: #ffffff;
+$color-dark: #1a1a1a;
+$color-medium: #2c2c2c;
+$color-light: #d2d2d2;
+$color-light2: #a5a5a5;
+$bg-primary: #fffdf8;
+$bg-secondary: #fff9e9;
+$bg-fff3cf: #fff3cf;
+$font-size: 16px;
+$transition: .5s;
+
+$breakpoint-xl: "only screen and (min-width:1200px)";
+
+$breakpoint-lg: "only screen and (min-width:992px) and (max-width:1199px)";
+
+$breakpoint-md: "only screen and (min-width:768px) and (max-width:991px)";
+
+$breakpoint-sm: "only screen and (min-width:576px) and (max-width:767px)";
+
+$breakpoint-xs: "only screen and (max-width:767px)";
+
+$breakpoint-xs-landscape: "only screen and (min-width:480px) and (max-width:767px)";
+
+$breakpoint-sm-down: '(max-width: 575.98px)';
+
+$breakpoint-md-down: '(max-width: 991.98px)';
+
+$breakpoint-lg-down: '(max-width: 1199.98px)';
