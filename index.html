@@ -15,6 +15,37 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/responsive.css" rel="stylesheet">
   <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float img {
+    width: 47px;
+    height: 47px;
+  }
+</style>
+
+
+
+
 </head>
 
 <body>
@@ -58,6 +89,7 @@
     <div class="container">
       <div class="row">
 
+
         <div class="col-md-6">
           <h1>Gustavo Martin Gravagna</h1>
           <div class="page-scroll">
@@ -65,7 +97,7 @@
               experiencia en Tiendas Online con WooCommerce y Wordpress</p>
             <a href="#portfolio" class="btn btn-border">Mis ultimos proyectos</a>
             <div class="clearfix visible-xxs"></div>
-            <a href="https://wa.me/541141944347?text=Hola%20Gustavo%20me%20podes%20ayudar%20?" class="btn btn-fill ">CONTACTO WhastApp Directo</a>
+            <a href="https://wa.me/541138991579?text=Hola%20Gustavo%20me%20podes%20ayudar%20?" class="btn btn-fill ">CONTACTO WhastApp Directo</a>
           </div>
         </div>
 
@@ -78,6 +110,9 @@
   </div><!-- /.hero -->
 
   <main id="main" class="site-main">
+	  		  <a href="https://wa.me/541138991579" target="_blank" class="whatsapp-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
 
     <section id="about" class="site-section section-about text-center">
       <div style="margin-bottom: 70px" class="container">
@@ -85,59 +120,81 @@
           <div class="col-md-6 col-md-offset-3">
             <h2>About</h2>
             <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-            <p>Hola, soy Gustavo, un apasionado desarrollador Full Stack especializado en la creación y optimización de
-              sitios web. Como líder de una vibrante agencia de marketing digital, junto con un equipo talentoso, nos
-              dedicamos a potenciar la visibilidad online de marcas a través de estrategias SEO, la creación de SERPs
-              efectivas y el desarrollo de tiendas online con WooCommerce y WordPress. Mi enfoque como Community Manager
-              fortalece la conexión con la audiencia. Listo para nuevos desafíos, siempre estoy disponible para discutir
-              proyectos y ayudarte a llevar tu presencia digital al siguiente nivel. ¡Contáctame <a
-                href="#contact">aquí</a>!</p>
+           <p>Hola, soy Gustavo Gravagna, licenciado en marketing y director de <a href="https://seodigital.com.ar" target="_blank">SEO Digital</a>. Dirijo un equipo especializado en desarrollo web, diseño gráfico, video, publicidad y estrategias de marca. 
+
+Nos enfocamos en crear y optimizar páginas web, tiendas online y software a medida, con experiencia en WooCommerce y WordPress. Nuestra experiencia internacional y habilidades en SEO han ayudado a muchas marcas a mejorar su visibilidad y alcanzar sus metas.
+
+También gestionamos comunidades online para fortalecer la conexión entre marcas y su audiencia. Si buscas un socio confiable para potenciar tu presencia digital, contáctame <a href="#contact">aquí</a> y exploremos juntos las oportunidades para tu marca.</p>
+
 
             <a class="btn btn-fill" target="_blank" href="GustavoGravagna_FrontEndJr.pdf"
-              download="GustavoGravagna_FrontEndJr">Descarga mi CV</a>
+              download="GustavoGravagna_FrontEndJr">Descarga mi Hoja de vida</a>
 
           </div>
         </div>
       </div>
     </section><!-- /.secton-about -->
 
-    <section id="service" class="mt-2 site-section section-services overlay text-center">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-12">
-            <h3>¿ QUE PUEDO HACER ?</h3>
-            <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-          </div>
-
-
-
-          <div class="col-sm-6">
-            <div class="service">
-              <img src="assets/img/front-end.svg" alt="Front End Developer">
-              <h4>Full-Stack MERN</h4>
-              <p>Desarrollador Full Stack con experiencia en Node.js, MongoDB, Express, React, maquetado en HTML5 y
-                CSS3, y trabajo con jQuery y Bootstrap5 para crear interfaces atractivas.</p>
-            </div><!-- /.service -->
-          </div>
-          <div class="col-sm-6">
-            <div class="service">
-              <img src="assets/img/consultancy.svg" alt="Coding">
-              <h4>Consultoría y Desarrollo Web</h4>
-              <p>Ofrezco Consultoría y Desarrollo Web. Implementaciones de SEO, Community Manager y tiendas WooCommerce
-                en WordPress.</p>
-            </div><!-- /.service -->
-          </div>
-
-
-        </div>
-
+<section id="service" class="mt-2 site-section section-services overlay text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>¿QUÉ PUEDO HACER POR TI?</h3>
+        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
       </div>
 
+      <div class="col-sm-6 col-lg-4">
+        <div class="service">
+          <h4>Páginas Web</h4>
+          <p>Desarrollo de sitios web personalizados y optimizados para SEO. Diseño atractivo y funcional, adaptable a dispositivos móviles, para garantizar una excelente experiencia de usuario.</p>
+          <p>Incluye implementación de sistemas de gestión de contenido (CMS) como WordPress, y soporte para futuras actualizaciones y mantenimiento.</p>
+        </div>
+      </div>
 
+      <div class="col-sm-6 col-lg-4">
+        <div class="service">
+          <h4>Tiendas Online</h4>
+          <p>Creación de tiendas en línea seguras y eficientes, con integración de plataformas de pago como PayPal y Stripe. Gestión completa de productos, inventarios y envíos.</p>
+          <p>Además, optimización para conversiones y analítica avanzada para entender el comportamiento de tus clientes y maximizar tus ventas.</p>
+        </div>
+      </div>
 
-    </section><!-- /.secton-services -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="service">
+          <h4>Diseño Gráfico</h4>
+          <p>Diseño gráfico creativo y profesional para material publicitario, branding, y redes sociales. Desde logotipos hasta catálogos, garantizo que tu marca destaque visualmente.</p>
+          <p>Trabajo en estrecha colaboración contigo para asegurar que cada diseño refleje la identidad y valores de tu empresa.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 30px !important;" class="col-sm-6 col-lg-4">
+        <div  class="service">
+          <h4>Diseño de Video</h4>
+          <p>Producción y edición de videos profesionales para promocionar tu marca, productos o servicios. Especializado en videos corporativos, animaciones, y contenido para redes sociales.</p>
+          <p>Cada video es diseñado para captar la atención de tu audiencia y transmitir tu mensaje de manera efectiva y memorable.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 30px !important;" class="col-sm-6 col-lg-4">
+        <div class="service">
+          <h4>Publicidad</h4>
+          <p>Estrategias publicitarias integrales en plataformas como Google Ads y Facebook Ads. Diseño y gestión de campañas para aumentar tu visibilidad y atraer clientes potenciales.</p>
+          <p>Incluye análisis de resultados y optimización continua para asegurar el mejor retorno de inversión (ROI) en tus campañas publicitarias.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 30px !important;" class="col-sm-6 col-lg-4">
+        <div class="service">
+          <h4>Manual de Marca</h4>
+          <p>Creación de manuales de marca completos que establecen las directrices de identidad visual, uso del logotipo, tipografías, colores, y tono comunicacional de tu empresa.</p>
+          <p>Este manual es esencial para mantener la coherencia en todos los materiales y comunicaciones de tu marca, fortaleciendo su presencia en el mercado.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
     <!-- /.secton-services -->
@@ -145,33 +202,156 @@
     <section id="portfolio" class="site-section section-portfolio">
       <div class="container">
         <div class="text-center">
-          <h3>Programacion Web</h3>
+			<h3>Programación De Paginas Web y Tiendas Online <br><small>(Pasa el mouse o toca la imagen para ver el sitio web)</small></h3>
           <img src="assets/img/lines.svg" class="img-lines" alt="lines">
         </div>
 
 
 
         <div class="row">
+			
+		<div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/7.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Fintrust Auditores ECUADOR</h4>
+                <a href="https://fintrustauditores.com/" target="_blank"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/bardo.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Bardo Fuego y Canciones MEXICO</h4>
+                <a href="https://www.zibata.com.ar" data-toggle="modal" data-target="#portfolioItem36"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+                    <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/bardo.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Bardo Fuego y Canciones MEXICO</h4>
+                <a href="https://www.zibata.com.ar" data-toggle="modal" data-target="#portfolioItem36"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/mexico.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Guias el corazon de mexico MEXICO </h4>
+                <a href="Global/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/36.png" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Zibata Shoes ARGENTINA</h4>
+                <a href="https://www.zibata.com.ar" data-toggle="modal" data-target="#portfolioItem36"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/456-n.png" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Nakiki ARGENTINA</h4>
+                <a href="https://www.nakiki.com.ar" target="_blank"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>  
 
           <div class="col-md-4 col-xs-6">
             <div class="portfolio-item">
-              <img src="assets/img/43.png" class="img-res" alt="">
+              <img src="assets/img/1.webp" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Hhremodeling Services Llc</h4>
-                <a href="https://hremodelingservicesllc.com/" target="_blank"><span
+                <h4>Vinculos Sanos Psicología ARGENTINA</h4>
+                <a href="https://vinculosanos.com/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
-                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
           </div> 
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/2.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Occhiali Lentes y Accesorios ARGENTINA</h4>
+                <a href="https://testproyect002.online/" target="_blank"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+           <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/3.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Eleti Microcemento MEXICO</h4>
+                <a href="https://microcemento.eleti.com.mx/" target="_blank"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>  
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/4.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Eleti Mármol MEXICO</h4>
+                <a href="https://marmol.eleti.com.mx/" target="_blank"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/5.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Finter Hall MEXICO</h4>
+                <a href="https://finterhall.com/" target="_blank"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div>
+          
+          <div class="col-md-4 col-xs-6">
+            <div class="portfolio-item">
+              <img src="assets/img/6.webp" class="img-res" alt="">
+              <div class="portfolio-item-info">
+                <h4>Kikive VENEZUELA</h4>
+                <a href="https://kikive.com/" target="_blank"><span
+                    class="glyphicon glyphicon-eye-open"></span></a>
+              </div><!-- /.portfolio-item-info -->
+            </div><!-- /.portfolio-item -->
+          </div> 
+          
+
+   
+          
+          
           <div class="col-md-4 col-xs-6">
             <div class="portfolio-item">
               <img src="assets/img/41.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Rios Painting Llcht</h4>
+                <h4>Rios Painting Llcht ESTADOS UNIDOS</h4>
                 <a href="https://riospaintingllcht.com/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
-                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
           </div> 
@@ -179,10 +359,9 @@
             <div class="portfolio-item">
               <img src="assets/img/42.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Edgar Romero Roo Fingca</h4>
+                <h4>Edgar Romero Roo Fingca ESTADOS UNIDOS</h4>
                 <a href="https://edgarromeroroofingca.net/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
-                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
           </div> 
@@ -190,10 +369,9 @@
             <div class="portfolio-item">
               <img src="assets/img/40.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Editorial Chipotle CDMX</h4>
+                <h4>Editorial Chipotle MEXICO</h4>
                 <a href="https://editorialchipotle.com/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
-                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
           </div>  
@@ -201,7 +379,7 @@
             <div class="portfolio-item">
               <img src="assets/img/456-m.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Martina Beach Club Tulum</h4>
+                <h4>Martina Beach Club Tulum MEXICO</h4>
                 <a href="https://martinabeachclubpdc.com/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
@@ -212,7 +390,7 @@
             <div class="portfolio-item">
               <img src="assets/img/456-e.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Eleti Mx | Eleganza Italiana</h4>
+                <h4>Eleti Mx | Eleganza Italiana MEXICO</h4>
                 <a href="https://eleti.com.mx/" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
@@ -222,10 +400,9 @@
             <div class="portfolio-item">
               <img src="assets/img/456-gc.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>GoCord Usa</h4>
+                <h4>GoCord Usa ESTADOS UNIDOS</h4>
                 <a href="https://gocordonlineweb.com/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
-                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
           </div>
@@ -233,7 +410,7 @@
             <div class="portfolio-item">
               <img src="assets/img/1.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Estudio Juridico Gongora</h4>
+                <h4>Estudio Juridico Gongora ARGENTINA</h4>
                 <a href="estudiogongora/index.html" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
 
@@ -244,7 +421,7 @@
             <div class="portfolio-item">
               <img src="assets/img/120.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Yoltik Solutions</h4>
+                <h4>Yoltik Solutions MEXICO</h4>
                 <a href="yoltik/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
@@ -253,7 +430,7 @@
             <div class="portfolio-item">
               <img src="assets/img/125.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Kim Construction Usa</h4>
+                <h4>Kim Construction ESTADOS UNIDOS</h4>
                 <a href="https://emmankikiconstruction.com/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
@@ -263,7 +440,7 @@
             <div class="portfolio-item">
               <img src="assets/img/124.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Giros Carpet Usa</h4>
+                <h4>Giros Carpet ESTADOS UNIDOS</h4>
                 <a href="giros-carpet/service.html" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
@@ -273,7 +450,7 @@
             <div class="portfolio-item">
               <img src="assets/img/123.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Templo Turan</h4>
+                <h4>Templo Turan MEXICO</h4>
                 <a href="https://temploturan.com/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
@@ -283,7 +460,7 @@
             <div class="portfolio-item">
               <img src="assets/img/122.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Boost Me Now</h4>
+                <h4>Boost Me Now CHILE</h4>
                 <a href="https://boostmenow.cl/" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
@@ -292,7 +469,7 @@
             <div class="portfolio-item">
               <img src="assets/img/121.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Carolina Costa</h4>
+                <h4>Carolina Costa ARGENTINA</h4>
                 <a href="https://contadoracarolinacosta.com.ar/" target="_blank"><span
                     class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
@@ -302,7 +479,7 @@
             <div class="portfolio-item">
               <img src="assets/img/66.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Chain Spa Cabo San Lucas</h4>
+                <h4>Chain Spa Cabo San Lucas MEXICO</h4>
                 <a href="chain/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
@@ -311,7 +488,7 @@
             <div class="portfolio-item">
               <img src="assets/img/6.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Cafe Madero Point</h4>
+                <h4>Cafe Madero Point ARGENTINA</h4>
                 <a href="Restaurante/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
@@ -320,7 +497,7 @@
             <div class="portfolio-item">
               <img src="assets/img/2.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>La Hermandad</h4>
+                <h4>La Hermandad ARGENTINA</h4>
                 <a href="la-hermandad/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
@@ -329,7 +506,7 @@
             <div class="portfolio-item">
               <img src="assets/img/122.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Agencia Enrique Uruguay</h4>
+                <h4>Agencia Enrique URUGUAY</h4>
 
                 <a href="Uruguay/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
@@ -337,23 +514,16 @@
           </div>
           <div class="col-md-4 col-xs-6">
             <div class="portfolio-item">
-              <img src="assets/img/22.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Agencia Enrique Argentina</h4>
-                <a href="Argentina/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
               <img src="assets/img/20.png" class="img-res" alt="">
               <div class="portfolio-item-info">
-                <h4>Agencia Enrique Global</h4>
+                <h4>Agencia Enrique Institucional</h4>
                 <a href="Global/index.html" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
               </div><!-- /.portfolio-item-info -->
             </div><!-- /.portfolio-item -->
           </div>
 
+                   
+
 
 
 
@@ -364,47 +534,7 @@
 
 
 
-        <div style="margin-top:130px !important" class="text-center">
-          <h3>Aplicaciones</h3>
-          <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/10.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Qr-Imagen Generator</h4>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/11.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>To Do List </h4>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/9.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Pairs Game</h4>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/12.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Calculator</h4>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-        </div>
+        
 
 
 
@@ -413,64 +543,8 @@
 
 
 
-        <div style="margin-top:130px !important" class="text-center">
-          <h3 class="mt-5">Consultoría SEO</h3>
-          <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-        </div>
-        <div class="row">
-          <!--<div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/35.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Curiosidades Salud</h4>
 
-              </div>
-            </div>
-          </div>-->
-
-
-
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/34.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Agencia Enrique</h4>
-
-                <a href="https://agenciaenrique.com/" target="_blank"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-        </div>
-
-        <div style="margin-top:130px !important" class="text-center">
-          <h3>Tiendas Online</h3>
-          <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/456-n.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Nakiki</h4>
-                <a href="https://www.nakiki.com.ar" target="_blank"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/36.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Zapatillas Hombre Zibata</h4>
-
-                <a href="#" data-toggle="modal" data-target="#portfolioItem36"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-              </div><!-- /.portfolio-item-info -->
-            </div><!-- /.portfolio-item -->
-          </div>
-        </div>
+   
 
       </div>
     </section><!-- /.secton-portfolio -->
@@ -517,7 +591,7 @@
 
             <a style="font-size: 19px;"
               href="https://wa.me/541141944347?text=Me%20interesaria%20coordinar%20una%20entrevista"><i
-                class="fa fa-phone mr-2 footer-icon"> </i> +54 11 4194 4347
+                class="fa fa-phone mr-2 footer-icon"> </i> <a href="https://wa.me/5491138991579" target="_blank">+54 11 3899 1579</a>
             </a><br><br>
 
             <a style="font-size: 19px;" href="https://seodigital.com.ar"><i class="fa fa-globe mr-2 footer-icon"> </i>
@@ -565,7 +639,7 @@
               class="icon-linkedin"></i></a>
         </div>
         <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-          <p class="copyright">2023 Todos los derechos reservados</p>
+          <p class="copyright">2024 Gustavo Martin Gravagna. <br>Diseñado y desarrollado por <a href="https://seodigital.com.ar">SEOdigital💜</a></p>
         </div>
         <div class="col-sm-4 col-xs-3">
           <div class="text-right page-scroll">
@@ -697,24 +771,7 @@
   </div><!-- /.modal -->
 
 
-  <div id="portfolioItem125" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/125.png" alt="">
-        </div>
-        <div class="modal-body">
-          <h4 class="modal-title">Kiki Construction LLC</h4>
-          <p>Proyecto de programacion web en HTML5, Bootstrap5 y Javacript
-          </p>
-        </div>
-        <div class="modal-footer">
-          <a href="https://emmankikiconstruction.com" class="btn btn-fill">Visitar Sitio Web</a>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+
 
 
   <div id="portfolioItem36" class="modal fade" role="dialog">
@@ -851,24 +908,7 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 
-  <div id="portfolioItem34" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/34.png" alt="">
-        </div>
-        <div class="modal-body">
-          <h4 class="modal-title">Agencia Enrique</h4>
-          <p>Proyecto de desarrollo web en Wordpress y posicionamiento del sitio en priemeras posiciones de Google.
-          </p>
-        </div>
-        <div class="modal-footer">
-          <a href="https://agenciaenrique.com/" class="btn btn-fill">Visitar Sitio Web</a>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+
 
 
   <div id="portfolioItem33" class="modal fade" role="dialog">
